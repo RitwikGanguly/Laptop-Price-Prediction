@@ -93,8 +93,10 @@ streamlit app."
 )
 
 
-st.subheader("👉 THE GITHUB LINK OF THIS PROJECT: {}".format("https://github.com/RitwikGanguly/Movie-Recommendation-System/tree/master"))
-
+st.subheader("👉 THE GITHUB LINK OF THIS PROJECT:-")
+st.subheader("https://github.com/RitwikGanguly/Laptop-Price-Prediction")
+st.subheader("The Documentation of this Project")
+st.write("https://docs.google.com/document/d/1DZ0k8nyx6DJ-zMH0fssyoSYx4sCJsDo4uiFXgYP39zQ/edit")
 
 
 
