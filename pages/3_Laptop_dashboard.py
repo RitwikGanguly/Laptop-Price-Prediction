@@ -49,7 +49,7 @@ draft_template.layout.annotations = [
 ]
 
 st.subheader("Visualization Without Filtering📈")
-st.subheader("Zoom to better visualization")
+st.write(":blue[Zoom to better visualization]")
 col1, col2, col3, col4 = st.columns(4)
 
 
@@ -114,7 +114,7 @@ col1, col2, col3, col4 = st.columns(4)
 
 
 if butt:
-    st.write("Zoom to better visualization")
+    st.write(":green[Zoom to better visualization]")
     data = df[df["processor"] == processor]
     data = data[data["ram"] == ram]
     data = data[data["Storage"] == Storage]

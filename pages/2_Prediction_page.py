@@ -127,64 +127,8 @@ if butt:
 
 
 
-# st.image(noimg)
+    st.subheader("Hope You Enjoyed 🙄🙄")
 
-
-# img = Image.open(urlopen(p[0]))
-# print(img)
-
-
-# NLP section --------------------------------------------------------------------------------------------------
-
-
-
-#
-# # ------------------------------------------------------------------------------------------------------------------
-#
-
-# movie_index = movies_list[movies_list["Movies"] == selected_movie_name].index[0]
-# if butt:
-#     with st.spinner('Take patience, wait for it.....'):
-#         time.sleep(5)
-#     st.success('Done!')
-#     st.write("Your entered movie details:-")
-#     st.write("Your Movie Name - ", selected_movie_name)
-#     try:
-#         url = img_url(selected_movie_name)
-#         st.image(url[0], width=200)
-#
-#     except:
-#         pass
-#     st.write("Lead Star - ", movies_list.iloc[movie_index].first_name)
-#     st.write("Director - ", movies_list.iloc[movie_index].Director)
-#     st.write("Rating - ", movies_list.iloc[movie_index].Rating)
-#     st.write("TV-Show Type - ", movies_list.iloc[movie_index].tv_shows)
-#     st.write("Tags - ", movies_list.iloc[movie_index].tags)
-#
-#     st.markdown("Your movie link - {}".format(movies_list.iloc[movie_index].imb_link))
-#     st.subheader("The Top 5 listed Movies of High rating(Rating > 7.0)")
-#     recom = recommand(selected_movie_name)
-#
-#     for i in range(len(recom)):
-#         st.write("{}) {}".format(i+1, recom[i]))
-#
-#         try:
-#             url = img_url(recom[i])
-#             st.image(url[0], width=200)
-#
-#         except:
-#             pass
-#         idx = movies_list[movies_list["Movies"] == recom[i]].index[0]
-#         st.write("Lead Star - ", movies_list.iloc[idx].first_name)
-#         st.write("Director - ", movies_list.iloc[idx].Director)
-#         st.write("Rating - ", movies_list.iloc[idx].Rating)
-#         st.write("TV-Show Type - ", movies_list.iloc[idx].tv_shows)
-#         st.write("Tags - ", movies_list.iloc[idx].tags)
-#         link = movies_list.iloc[idx].imb_link
-#         st.markdown("Movie link - {}".format(link), unsafe_allow_html=True)
-#
-#     st.subheader("Hope You Enjoyed 🙄🙄")
-#
 
 
 
