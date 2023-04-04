@@ -76,7 +76,7 @@ st.write(
 - ✔️ Some time get confused to himself and has somewhat little patience
 """
 )
-st.subheader("Project Name - Laptop Prize Prediction")
+st.subheader("Project Name - Laptop Price Prediction")
 st.subheader("Project Requirements ...............")
 st.write(
     """
@@ -85,7 +85,7 @@ st.write(
 - 🏆 Cleaning and do all the preprocessing task through pandas library of python to get a clean dataframe
 - 🏆 Done the data preprocessing task by regex in python
 - 🏆 Done all the visualization task through plotly library of python
-- 🏆 Making the model through Random Forest Regressior, to get the desired prediction of laptop prize 😊
+- 🏆 Making the model through Random Forest Regressior, to get the desired prediction of laptop price 😊
 - 🏆 Last but not the list make the website through streamlit framework through python and deploy in 
 streamlit app."
 
@@ -97,6 +97,7 @@ st.subheader("👉 THE GITHUB LINK OF THIS PROJECT:-")
 st.subheader("https://github.com/RitwikGanguly/Laptop-Price-Prediction")
 st.subheader("The Documentation of this Project")
 st.write("https://docs.google.com/document/d/1DZ0k8nyx6DJ-zMH0fssyoSYx4sCJsDo4uiFXgYP39zQ/edit")
+
 
 
 
